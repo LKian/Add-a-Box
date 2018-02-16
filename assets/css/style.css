@@ -19,18 +19,18 @@ button {
     padding: 0px 10px;
     border: 2px solid #fff;
     outline: none;
-    border-radius: 25px;
+    border-radius: 35px;
     background-color: transparent;
-    height: 15vh;
+    height: 16vh;
     width: 20%;
     text-transform: uppercase;
     color: #fff;
     font-family: 'Helvetica Neue';
     font-size: .8rem;
     cursor: pointer;
-    transition: 0.8s ease;   }
+    transition: 0.8s ease; }
 button:hover { 
-    letter-spacing: 0.1em;
+    letter-spacing: 0.0.08em;
     font-size: 0.9rem;
     color: #fff;
     border: 3px solid #fff;
@@ -58,5 +58,17 @@ button:hover {
 
  @media screen and (min-width: 968px) {
     button { 
-      transition: 0.5s ease; } 
+      transition: 0.5s ease;
+      height: 10vh; } 
+}
+
+@media screen and (min-width: 568px) {
+    button { 
+      transition: 0.5s ease;
+      height: 10vh;
+      border-radius: 45px;
+      font-size: 1rem; } 
+    button:hover { 
+      transition: 0.5s ease; 
+      font-size: 1.1rem; } 
 }
